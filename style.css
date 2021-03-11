@@ -49,6 +49,18 @@ nav {
     text-decoration: none;
 }
 
+.p-h2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 32px;
+    color: #fff;
+}
+
+.p-h6 {
+    font-family: 'BlenderPro-Medium', sans-serif;
+    font-size: 18px;
+    color: #fff;
+}
+
 #first-box a:hover {
     text-decoration: none;
 }
@@ -83,6 +95,12 @@ h1 {
 .classy-div {
     background-color: #E6317B;
     border: 1px solid #FF43C0;
+}
+
+#juego {
+    background-image: url(assets/imgs/background-1.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 @media (max-width: 991.98px) {
