@@ -12,6 +12,18 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'BlenderPro-Medium', sans-serif;
+    
+}
+
+.my-nav {
+    background-color: white;    
+}
+
+nav {
+    -webkit-box-shadow: 0px 3px 25px 0px rgba(0,0,0,0.13);
+    -moz-box-shadow: 0px 3px 25px 0px rgba(0,0,0,0.13);
+    box-shadow: 0px 3px 25px 0px rgba(0,0,0,0.13);
 }
 
 #my-header {
@@ -22,6 +34,31 @@
 
 h1 {
     color: red;
-    
 }
 /* font-family: 'Nunito', sans-serif; */
+
+.nav-links {
+    color: #E6317B;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    font-family: 'BlenderPro-Medium', sans-serif;
+    font-size: 18px;
+}
+
+.nav-links:hover {
+    color: #d82e75;
+    text-decoration: none;
+}
+
+
+@media (max-width: 991.98px) {
+#my-header {
+    background-image: url(assets/imgs/MainBG_small.jpg);
+}
+
+.nav-item {
+    margin-top: 0.6rem;
+}
+
+}
