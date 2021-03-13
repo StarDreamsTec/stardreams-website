@@ -6,16 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>StarDreams | Indicadores STEM</title>
     <meta name="description" content="¡Viaja por mundos fantásticos en tus sueños, mientras aprendes sobre ciencias y tecnologías!">
-    <!-- <link rel="canonical" href="https://elmavirirestaurant.com/"> -->
     <meta name="autor" content="Diego, Iñigo, Marcia y Agustín">
     <!-- <meta name="robots" content="index, follow"> -->
 
     <!-- Open Graph. Para compartir página en Facebook -->
     <meta property="og:title" content="StarDreams | Juego Movimiento STEM">
     <meta property="og:description" content="¡Viaja por mundos fantásticos en tus sueños, mientras aprendes sobre ciencias y tecnologías!">
-    <!-- <meta property="og:url" content="https://elmavirirestaurant.com/"> -->
-    <!-- <meta property="og:image" content="http://elmavirirestaurant.com/assets/imgs/imagen-og-image.jpg"> -->
-    <!-- <meta property="og:image:secure_url" content="https://elmavirirestaurant.com/assets/imgs/imagen-og-image.jpg"> -->
     <meta property="og:locale" content="es_ES" />
     <!-- <meta property="og:type" content="website"> NEL CREO QUE NO SE USA -->
 
@@ -24,12 +20,6 @@
     <meta name="twitter:description" content="¡Viaja por mundos fantásticos en tus sueños, mientras aprendes sobre ciencias y tecnologías!">
     <!-- <meta name="twitter:url" content="https://elmavirirestaurant.com/"> -->
     <meta name="twitter:card" content="summary_large_image">
-    <!-- <meta name="twitter:image" content="http://elmavirirestaurant.com/assets/imgs/imagen-og-image.jpg"> -->
-
-    <!-- Icons -->
-    <!-- <link rel="icon" href="https://elmavirirestaurant.com/assets/imgs/LogoMaviriOrange.png"> -->
-    <!-- <link rel="icon" href="http://elmavirirestaurant.com/assets/imgs/imagen-og-image.jpg" sizes="192x192"> CREO QUE ESTE NEL -->
-    <!-- <link rel="apple-touch-icon" href="https://elmavirirestaurant.com/assets/imgs/LogoMaviriOrange.png"> -->
 
     <!-- Stylesheets -->
     <!-- Bootstrap. Ayuda para el CSS. -->
@@ -40,14 +30,55 @@
     <!-- Página para íconos.  -->
     <script src="https://kit.fontawesome.com/01b9abcee1.js" crossorigin="anonymous"></script>
 
+
+    <link rel="stylesheet" href="style.css">
+
     <link type="text/css"
           rel="stylesheet"
           href="styles/indicadores.css">
+
+
     <!--    <script src="https://d3js.org/d3.v5.js"></script>-->
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script src="scripts/graphs.js"></script>
 </head>
 <body>
+
+    <!-- Nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white" style="position: -webkit-sticky;position: sticky; top: 0; z-index: 10">
+        <img src="assets/icons/Stardreams_logo.svg" alt="" style="width: 160px;" class="mr-4 py-3">
+        <!-- <a class="navbar-brand" href="#">Stardreams</a> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-links" href="index.html">Juego <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-links" href="index.html">Movimiento STEM</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-links" href="indicadores.html">Indicadores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-links" href="index.html">Documentación</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <div style="background-color: #E6317B;" class="py-1">
+                        <a class="nav-links" href="#" style="color: #fff;">Juégalo ahora</a>
+                    </div>
+                </li>
+                <li class="nav-item pt-1" >
+                    <a class="nav-links" href="#">Mi cuenta</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
     <main>
         <h1>Indicadores STEM</h1>

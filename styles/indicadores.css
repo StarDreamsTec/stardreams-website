@@ -18,6 +18,7 @@ h1{
     flex-basis: 100%;
     text-align: center;
     font-size:72px;
+    color: white; !important
     font-family:"Nunito";
 }
 
@@ -34,13 +35,7 @@ main{
     flex-flow: row wrap;
     width: 100vw;
     padding: 10vw 10vw;
-    /*background-image: url("../assets/imgs/indicadoresBackground.jpg");*/
-    /*background-size: contain;*/
-    /*background-repeat: repeat-y;*/
     background: rgb(64,144,205);
-    /*background: linear-gradient(66deg, rgba(64,144,205,1) 0%, rgba(33,155,193,1) 39%, rgba(33,84,194,1) 82%, rgba(31,66,187,1) 100%);*/
-    /*background: radial-gradient(circle, rgba(64,144,205,1) 0%, rgba(33,155,193,1) 30%, rgba(33,84,194,1) 91%, rgba(31,66,187,1) 100%);*/
-    /*background: radial-gradient(circle, rgba(64,144,205,1) 0%, rgba(33,155,193,1) 7%, rgba(33,84,194,1) 91%, rgba(31,66,187,1) 100%);*/
     background: linear-gradient(66deg, rgba(64,144,205,1) 2%, rgba(31,66,187,1) 45%, rgba(33,84,194,1) 88%, rgba(33,155,193,1) 100%);
 
 }
