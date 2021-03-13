@@ -35,14 +35,14 @@ function distribucionesChart() {
 function edadesChart(){
     var data = google.visualization.arrayToDataTable([
         ["Edad", "Jugadores", { role: "style" } ],
-        ["6", 13844, "#b87333"],
-        ["7", 18393, "silver"],
-        ["8", 13939, "gold"],
-        ["9", 12930, "color: #e5e4e2"],
-        ["10", 10930, "color: #e5e4e2"],
-        ["11", 9236, "color: #e5e4e2"],
-        ["12", 7256, "color: #e5e4e2"],
-        ["13", 2564, "color: #e5e4e2"]
+        ["6", 13844, "#FF43C0"],
+        ["7", 18393, "#3AFFFF"],
+        ["8", 13939, "#FF43C0"],
+        ["9", 12930, "#3AFFFF"],
+        ["10", 10930, "#FF43C0"],
+        ["11", 9236, "#3AFFFF"],
+        ["12", 7256, "#FF43C0"],
+        ["13", 2564, "#3AFFFF"]
     ]);
 
     // var view = new google.visualization.DataView(data);
@@ -76,7 +76,7 @@ function edadesChart(){
             baselineColor: '#FFFFFF'
         }
     };
-    var chart = new google.visualization.ColumnChart(document.getElementById("playersAge"));
+    let chart = new google.visualization.ColumnChart(document.getElementById("playersAge"));
     chart.draw(data, options);
 }
 
@@ -93,7 +93,7 @@ function teacherChart(){
     //     ["60-65", 2564, "color: #e5e4e2"]
     // ]);
 
-    var data = google.visualization.arrayToDataTable([
+    let data = google.visualization.arrayToDataTable([
         ["Edad", "Jugadores"],
         ["25-30" , 13844],
         ["30-35", 18393],
@@ -114,7 +114,6 @@ function teacherChart(){
     //     2]);
 
     var options = {
-        bar: {groupWidth: "95%"},
         legend: "none",
         backgroundColor: 'transparent',
         hAxis: {
@@ -134,7 +133,8 @@ function teacherChart(){
                 color: "#FFFFFF"
             },
             baselineColor: '#FFFFFF'
-        }
+        },
+        colors: ["#FF43C0"]
     };
     var chart = new google.visualization.LineChart(document.getElementById("ageSuccess"));
     chart.draw(data, options);
