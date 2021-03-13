@@ -1,4 +1,5 @@
 
+
 @font-face {
     font-family: 'BlenderPro-Medium';
     src: url('../assets/fonts/BlenderPro-Medium.eot');
@@ -8,17 +9,19 @@
 }
 
 *{
-    font-family:"BlenderPro-Medium";
+    font-family: 'BlenderPro-Medium', sans-serif;
     /*border: solid black 1px;*/
-    font-size: 24px;
+    font-size: 1.2rem;
     color: white;
+    margin: 0;
+    padding: 0;
 }
 
 h1{
     flex-basis: 100%;
     text-align: center;
     font-size:72px;
-    color: white; !important
+    color: white !important;
     font-family:"Nunito";
 }
 
@@ -52,14 +55,14 @@ main > div > div{
     height:30vw;
 }
 
-img{
+.imagenes{
     width:60%;
     display:block;
     margin:0.5vw auto;
     object-fit:contain;
 }
 
-span{
+.spans{
     display:block;
     margin: 0.5vw;
 }
